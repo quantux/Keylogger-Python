@@ -5,7 +5,7 @@ This is a simple keylogger written in python programming language which opens a 
 
 INSTALLATION:
   
-  For install, you need to install: Pygame library (http://www.pygame.org), PyWin32 (http://sourceforge.net/projects/pywin32 ) and pyHook (http://sourceforge.net/projects/pyhook/files/pyhook/1.5.1 )
+  For installation, you need to: Pygame library (http://www.pygame.org), PyWin32 (http://sourceforge.net/projects/pywin32 ) and pyHook (http://sourceforge.net/projects/pyhook/files/pyhook/1.5.1 )
 
 CONFIGURATION:
 
