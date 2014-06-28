@@ -9,7 +9,7 @@ INSTALLATION:
 
 CONFIGURATION:
 
-  All configuration step is self explanatory in the source file code. You must just to place you email address and password in line 46 and 
+  All configuration step is self explanatory in the source file code. You must just to place your email address and password in line 46 and 
   from - to email in line 56. 
   
 RUN:
