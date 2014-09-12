@@ -16,4 +16,4 @@ RUN:
 
   For run, you just need to start game.py file (double-click mouse should work). If you don't want a prompt, run pygame.pyw instead.
   
-  JOIN IT :)
+  ENJOY IT :)
